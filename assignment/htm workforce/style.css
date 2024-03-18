@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: white;
+    font-family:  Cantarell;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    
+}
+
+ header {
+    background-color: grey;
+    padding: 20px;
+    text-align: center;
+ }
+
+ .content {
+    background-color: darkorange;
+    padding: 20px;
+    margin: 20px;
+ }
+
+ .skills {
+    background-color: grey;
+    padding: 10px;
+    margin: 10px 0;
+ }
+
+ .skills ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+ }
+
+ .contact {
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+ }
+
+ .contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+
+}
+
+.contact li a {
+    color: white;
+   font-size: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: black;
+        color: #fff;
+
+    }
+}
+        @media screen and (max-device-width: 640px) 
+    and (orientation: landscape) {
+    .body {
+        width: 400px;
+        height: 200px;
+        background-color: black;
+        color: white;
+    }
+}
